@@ -1,0 +1,27 @@
+# ch23_17.py
+import numpy as np
+
+x1 = np.array([0, 1, 2, 3, 4, 5])
+x2 = np.array(x1, copy=True)
+print(x1)
+print(x2)
+print('-'*70)
+x2[0] = 9
+print(x1)
+print(x2)
+print('-'*70)
+print(f"np.shares_memory(x1,x2) = {np.shares_memory(x1,x2)}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
